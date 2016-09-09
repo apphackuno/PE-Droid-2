@@ -2,9 +2,9 @@
 SEPARATOR = ";"
 
 LANG            = "en_US" # can be en_US, fr_FR, ...
-ANDROID_ID      =  "31DC096B90F4FFEC" # "31DC096B90F4FFEC"
-GOOGLE_LOGIN    =  "auagombe@gmail.com" # "username@gmail.com"
-GOOGLE_PASSWORD =  "ibbilove123"
+ANDROID_ID      =  "" # "DeviceID"
+GOOGLE_LOGIN    =  "" # "username@gmail.com"
+GOOGLE_PASSWORD =  ""
 AUTH_TOKEN      = None # "yyyyyyyyy"
 
 # force the user to edit this file
