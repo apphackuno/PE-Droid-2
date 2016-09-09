@@ -29,7 +29,7 @@ To run PE-Droid without PE-Client type the following Url
 
 
 ###############
-To run the instrumentation engine without using server execute the command as:
+To run the instrumentation engine locally without using server execute the command as:
 ./hackChat.py HelloWorld.apk PE-Aspects/PeLogger.aj
 
 
