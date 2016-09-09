@@ -51,7 +51,7 @@ function instAPK($apk, $pkg){
 	$instHome='/var/www/html/PE-Droid/AspectJ';
 	chdir($instHome);
 	flush();
-	$command = ("python ./hackDex.py ".$apk ." AD-Aspects/Logger.aj ".$pkg);
+	$command = ("python ./hackDex.py ".$apk ." PE-Aspects/PeLogger.aj ".$pkg);
 	$output = shell_exec($command);
 	# if no error return path to instrumneted app
 }
